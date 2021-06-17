@@ -8,5 +8,22 @@
 
 Description:
 
-Random password generator.
-<img src="Assets/Images>
+
+Random password generator
+<img src="Images/start.png">
+
+
+
+Generate button
+
+<img src="Images/button.png">
+
+
+
+Enter password length prompt
+<img src="Images/length.png">
+
+
+
+Special characters prompt
+<img src="Images/>
