@@ -56,7 +56,7 @@ function generatePassword(){
     return generatePassword()
   }
   
-  // Begin including or excluding chosen characters.
+  // Including or excluding chosen characters.
   if (numberChoice) {
     chosenChars += pwNumber;
   } else {
@@ -80,7 +80,7 @@ function generatePassword(){
   } else {
     chosenChars != pwLowercase;
   }
-
+  // Combines chosen characters randomly 
   for (var i = 0; i < length; i++) {
     result += chosenChars.charAt(Math.floor(Math.random() * chosenChars.length));
   }
